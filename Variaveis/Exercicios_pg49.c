@@ -10,7 +10,7 @@ int main() {
     // b) a parte fracionária desse número;
     // c) o arredondamento desse número. 
 
-    printf("#### Exercício 23 ####\n");
+    printf("#### Exercicio 23 ####\n");
 
     float numero;
     printf("Digite um numero real: ");
@@ -34,7 +34,7 @@ int main() {
     // - para quatro e meia, deve-se digitar 4.30;
     // - os minutos vão de 0 a 59.
 
-    printf("#### Exercício 24 ####\n");
+    printf("#### Exercicio 24 ####\n");
 
     float hora;
     printf("Digite a hora (formato 4.30 para quatro e meia): ");
@@ -43,4 +43,21 @@ int main() {
     int hora_em_minutos = (int)hora * 60 + (int)((hora - (int)hora) * 100);
     printf("A hora em minutos e: %d\n", hora_em_minutos);
 
+    // Execício 25
+    // Faça um programa que receba o custo de um espetáculo teatral e o preço do convite desse espetáculo.
+    // Esse programa deverá calcular e mostrar a quantidade de convites que devem ser vendidos para que,
+    // pelo menos, o custo do espetáculo seja alcançado.
+
+    printf("#### Exercicio 25 ####\n");
+
+    float custo_espetaculo, preco_convite;
+    printf("Digite o custo do espetaculo: ");
+    scanf("%f", &custo_espetaculo);
+    printf("Digite o preco do convite: ");
+    scanf("%f", &preco_convite);
+
+    int convites_necessarios = (int)(custo_espetaculo / preco_convite) + 1;
+    printf("A quantidade de convites que devem ser vendidos e: %d\n", convites_necessarios);
+
+    return 0;
 }
