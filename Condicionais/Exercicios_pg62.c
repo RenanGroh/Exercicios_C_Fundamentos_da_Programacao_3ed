@@ -38,4 +38,22 @@ int main () {
             printf("Media invalida.\n");
         }
 
+    printf("#### Exercicio 3 ####");
+   
+    float num1, num2;
+
+    printf("\nDigite o primeiro numero: ");
+    scanf("%f", &num1);
+    printf("Digite o segundo numero: ");
+    scanf("%f", &num2);
+
+    if (num1 > num2) {
+        printf("O primeiro numero é maior.\n");
+    } else if (num1 < num2) {
+        printf("O segundo numero é maior.\n");
+    } else {
+        printf("Os numeros sao iguais.\n");
+    }
+
+
 }
