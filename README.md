@@ -2,6 +2,8 @@
 
 ## Livro: Fundamentos da PROGRAMAÇÃO de COMPUTADORES 3ª edição
 
+#### Aluno: Renan Groh
+
 ### Variáveis (min 3)
 
 **Pg. 36** Ex: 1  - 10
