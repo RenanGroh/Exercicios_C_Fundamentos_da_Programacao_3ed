@@ -9,7 +9,7 @@ int main () {
     // Faça um programa que mostre a data e a hora do sistema nos seguintes formatos: DD/MM/AAAA –
     // mês por extenso e hora:minuto.
 
-    printf("#### Exercicio 9 ####");
+    printf("#### Exercicio 9 ####\n");
 
     time_t t = time(NULL);
     struct tm *data = localtime(&t);

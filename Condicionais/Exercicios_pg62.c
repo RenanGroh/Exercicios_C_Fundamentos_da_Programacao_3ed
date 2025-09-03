@@ -12,7 +12,7 @@ int main () {
     // 3 - 7 -> Exame final
     // 7 - 10 -> Aprovado
 
-    printf("#### Exercicio 2 ####");
+    printf("#### Exercicio 2 ####\n");
 
     float nota1, nota2, nota3, media, nota_exame;
 
@@ -40,7 +40,7 @@ int main () {
 
     // Exercício 3
     // Faça um programa que receba dois números e mostre o maior    
-    printf("#### Exercicio 3 ####");
+    printf("#### Exercicio 3 ####\n");
    
     float num1, num2;
 
@@ -61,7 +61,7 @@ int main () {
     // Faça um programa que receba três números e mostre-os em ordem crescente. Suponha que o usuário
     // digitará três números diferentes.
 
-    printf("#### Exercicio 4 ####");
+    printf("#### Exercicio 4 ####\n");
 
     float x, y, z;
 
@@ -94,7 +94,7 @@ int main () {
     // Faça um programa que receba três números obrigatoriamente em ordem crescente e um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em ordem decrescente. Suponha
     // que o usuário digitará quatro números diferentes.
 
-    printf("#### Exercicio 5 ####");
+    printf("#### Exercicio 5 ####\n");
 
     float n1, n2, n3, n4;
     float maior, meio1, meio2, menor;
