@@ -1,0 +1,6 @@
+# Compilação C/C++
+*.o
+*.exe
+
+# Arquivos do Visual Studio Code
+.vscode/
