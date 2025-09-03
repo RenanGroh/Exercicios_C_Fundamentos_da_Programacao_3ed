@@ -1,9 +1,6 @@
 #include <stdio.h>
-
 // Exercícios da pagina 51
-
-int main () {
-
+int main() {
     // Execício 17
     // Faça um programa que receba o raio, calcule e mostre:
     // a) o comprimento de uma esfera; sabe-se que C = 2 * p R;
@@ -30,18 +27,7 @@ int main () {
     float volume = (4.0/3.0) * pi * raio * raio * raio;
     printf("O volume da esfera e: %.2f\n", volume);
 
-    // Exercício 18
-    // Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em
-    // Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
-
-    printf("#### Exercicio 18 ####\n");
-
-    float celsius;
-    printf("Digite a temperatura em Celsius: ");
-    scanf("%f", &celsius);
-
-    float fahrenheit = 180 * (celsius + 32) / 100;
-    printf("A temperatura em Fahrenheit e: %.2f\n", fahrenheit);
-
     return 0;
 }
+
+
